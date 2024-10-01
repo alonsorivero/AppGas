@@ -9,21 +9,21 @@
         android:id="@+id/tv_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Logo"
+        android:text="@string/logo"
         android:textSize="24sp"
-        android:textColor="#000"
-        android:layout_alignParentTop="true"/>
-    <!-- Título -->
+        android:textColor="@color/black"
+       />
+
     <TextView
         android:id="@+id/history_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Historial de Detecciones"
+        android:text="@string/historial_de_detecciones"
         android:textSize="24sp"
         android:layout_gravity="center_horizontal"
         android:paddingBottom="16dp" />
 
-    <!-- ListView para mostrar los registros del historial -->
+
     <ListView
         android:id="@+id/detection_history_list"
         android:layout_width="match_parent"
@@ -37,7 +37,7 @@
         android:id="@+id/btn_volver"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Volver"
+        android:text="@string/volver"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"/>
 </LinearLayout>

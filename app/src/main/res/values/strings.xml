@@ -1,4 +1,33 @@
 <resources>
     <string name="app_name">AppGas</string>
     <string name="alerta_de_gas_detectada">¡Alerta de Gas Detectada!</string>
+    <string name="historial_de_detecciones">Historial de Detecciones</string>
+    <string name="volver">Volver</string>
+    <string name="logo">Logo</string>
+    <string name="nombre_de_la_aplicaci_n">nombre de la aplicación</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="olvide_mi_contrase_a">olvide mi contraseña</string>
+    <string name="o_inicia_sesi_n_con">o inicia sesión con</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="icloud">icloud</string>
+    <string name="configuraci_n_de_sensores">Configuración de Sensores</string>
+    <string name="agregar_sensor">Agregar Sensor</string>
+    <string name="sensor_cocina">Sensor Cocina</string>
+    <string name="estado_activo">Estado: Activo</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="guardar_configuraci_n">Guardar Configuración</string>
+    <string name="configuraci_n">Configuración</string>
+    <string name="idioma">Idioma:</string>
+    <string name="ingl_s">Inglés</string>
+    <string name="espa_ol">Español</string>
+    <string name="guardar_cambios">Guardar Cambios</string>
+    <string name="se_ha_detectado_una_fuga_de_gas_en_el_sensor_cocina">Se ha detectado una fuga de gas en el sensor Cocina.</string>
+    <string name="contactar_emergencias">Contactar Emergencias</string>
+    <string name="apagar_dispositivos_conectados">Apagar Dispositivos Conectados</string>
+    <string name="ventile_el_area_inmediatamente">Ventile el area inmediatamente.</string>
+    <string name="notificaciones_sonoras">Notificaciones Sonoras</string>
+    <string name="notificaciones_visuales">Notificaciones Visuales</string>
 </resources>

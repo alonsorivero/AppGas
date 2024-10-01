@@ -10,9 +10,9 @@
         android:id="@+id/tv_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Logo"
+        android:text="@string/logo"
         android:textSize="24sp"
-        android:textColor="#000"
+        android:textColor="@color/black"
         android:layout_gravity="start" />
 
     <!-- Título de la alerta -->
@@ -23,12 +23,12 @@
         android:layout_marginTop="65dp"
         android:paddingBottom="16dp"
         android:text="@string/alerta_de_gas_detectada"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_gravity="center" />
 
-    <!-- Caja de alerta con fondo rojo -->
+
     <LinearLayout
         android:id="@+id/alertBox"
         android:layout_width="match_parent"
@@ -44,9 +44,9 @@
             android:id="@+id/alertMessage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Se ha detectado una fuga de gas en el sensor Cocina."
+            android:text="@string/se_ha_detectado_una_fuga_de_gas_en_el_sensor_cocina"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/white"
             android:layout_gravity="center"
             android:paddingBottom="16dp" />
 
@@ -55,8 +55,8 @@
             android:id="@+id/contactEmergencyButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Contactar Emergencias"
-            android:textColor="#FFFFFF"
+            android:text="@string/contactar_emergencias"
+            android:textColor="@color/white"
             android:background="#1976D2"
             android:padding="12dp"
             android:layout_marginBottom="8dp" />
@@ -66,8 +66,8 @@
             android:id="@+id/turnOffDevicesButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Apagar Dispositivos Conectados"
-            android:textColor="#FFFFFF"
+            android:text="@string/apagar_dispositivos_conectados"
+            android:textColor="@color/white"
             android:background="#1976D2"
             android:padding="12dp" />
 
@@ -76,7 +76,7 @@
             android:id="@+id/ventilateMessage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ventile el area inmediatamente."
+            android:text="@string/ventile_el_area_inmediatamente"
             android:textSize="14sp"
             android:textColor="#000000"
             android:paddingTop="16dp"
@@ -88,8 +88,8 @@
         android:id="@+id/backButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="volver"
-        android:textColor="#FFFFFF"
+        android:text="@string/volver"
+        android:textColor="@color/white"
         android:background="#1976D2"
         android:padding="12dp"
         android:layout_gravity="center"

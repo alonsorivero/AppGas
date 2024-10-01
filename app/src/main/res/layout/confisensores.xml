@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/fondoapp2"
     android:padding="16dp">
 
-    <!-- Encabezado con logo y título -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center_vertical"
-        android:padding="8dp">
+        android:padding="8dp"
+        tools:ignore="UseCompoundDrawables">
 
         <!-- Icono de logo -->
-        <ImageView
-            android:id="@+id/logo"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:src="@drawable/ic_launcher_foreground"
-            android:contentDescription="Logo"/>
+        <TextView
+            android:id="@+id/tv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logo"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            />
 
         <!-- Título de la pantalla -->
         <TextView
             android:id="@+id/titulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Configuración de Sensores"
+            android:text="@string/configuraci_n_de_sensores"
             android:textSize="20sp"
             android:layout_marginStart="16dp"
             android:textStyle="bold" />
@@ -38,8 +42,7 @@
         android:id="@+id/btn_agregar_sensor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Agregar Sensor"
-        android:drawableRight="@drawable/ic_add"
+        android:text="@string/agregar_sensor"
         android:backgroundTint="@android:color/holo_blue_light"
         android:textColor="@android:color/white"
         android:layout_gravity="end"
@@ -60,7 +63,7 @@
             android:id="@+id/sensor_nombre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sensor Cocina"
+            android:text="@string/sensor_cocina"
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginBottom="8dp"/>
@@ -69,7 +72,7 @@
             android:id="@+id/sensor_estado"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Estado: Activo"
+            android:text="@string/estado_activo"
             android:textSize="16sp"/>
 
         <!-- Botón para eliminar el sensor -->
@@ -77,7 +80,7 @@
             android:id="@+id/btn_eliminar_sensor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Eliminar"
+            android:text="@string/eliminar"
             android:backgroundTint="@android:color/holo_red_light"
             android:textColor="@android:color/white"
             android:layout_marginTop="8dp"/>
@@ -88,7 +91,7 @@
         android:id="@+id/btn_guardar_configuracion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Guardar Configuración"
+        android:text="@string/guardar_configuraci_n"
         android:backgroundTint="@android:color/holo_blue_light"
         android:textColor="@android:color/white"
         android:layout_marginTop="16dp"

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondoapp2"
+    android:padding="16dp"
+    android:gravity="start">  <!-- Alinea todo el contenido al lado izquierdo -->
+    <TextView
+        android:id="@+id/tv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logo"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:layout_alignParentTop="true"/>
+    <!-- Texto de título con margen superior centrado horizontalmente -->
+    <TextView
+        android:id="@+id/tv_config_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Configuración"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal" />  <!-- El título permanece centrado -->
+
+    <!-- Selector de idioma alineado a la izquierda -->
+    <RadioGroup
+        android:id="@+id/radioGroupIdioma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Idioma:"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rb_ingles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inglés" />
+
+        <RadioButton
+            android:id="@+id/rb_espanol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Español"
+            android:checked="true" />
+    </RadioGroup>
+
+    <!-- Interruptores alineados a la izquierda -->
+    <Switch
+        android:id="@+id/switch_notificaciones_sonoras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notificaciones Sonoras"
+        android:layout_marginBottom="10dp" />
+
+    <Switch
+        android:id="@+id/switch_notificaciones_visuales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notificaciones Visuales"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Botón de guardar cambios alineado a la izquierda -->
+
+    <!-- Botón de volver alineado a la izquierda -->
+
+    <Button
+        android:id="@+id/btn_guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Guardar Cambios"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:textColor="@android:color/white" />
+</LinearLayout>

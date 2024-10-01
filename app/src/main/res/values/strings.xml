@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AppGas</string>
+    <string name="alerta_de_gas_detectada">¡Alerta de Gas Detectada!</string>
+</resources>
